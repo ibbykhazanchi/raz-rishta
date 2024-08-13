@@ -60,7 +60,6 @@ const RazForm = () => {
             required
             type="text"
             placeholder="First name"
-            defaultValue="Mark"
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
@@ -73,7 +72,6 @@ const RazForm = () => {
             required
             type="text"
             placeholder="Last name"
-            defaultValue="Otto"
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
