@@ -3,8 +3,8 @@ import { Form, Row, Col, InputGroup, Button } from "react-bootstrap";
 
 const RazForm = () => {
   const [formData, setFormData] = useState({
-    firstName: "Mark",
-    lastName: "Otto",
+    firstName: "",
+    lastName: "",
     username: "",
     state: "",
     zip: "",
